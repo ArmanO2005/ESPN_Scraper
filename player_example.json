@@ -1,0 +1,662 @@
+{
+    "athlete": {
+        "id": "3128429",
+        "uid": "s:20~l:28~a:3128429",
+        "guid": "32a202cd-dda5-e1c7-1c11-569436ff5230",
+        "type": "football",
+        "firstName": "Courtland",
+        "lastName": "Sutton",
+        "displayName": "Courtland Sutton",
+        "shortName": "C. Sutton",
+        "debutYear": 2018,
+        "links": [
+            {
+                "language": "en-US",
+                "rel": [
+                    "playercard",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/_/id/3128429/courtland-sutton",
+                "text": "Player Card",
+                "shortText": "Player Card",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "stats",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/stats/_/id/3128429/courtland-sutton",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "splits",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/splits/_/id/3128429/courtland-sutton",
+                "text": "Splits",
+                "shortText": "Splits",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "gamelog",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/gamelog/_/id/3128429/courtland-sutton",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "news",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/news/_/id/3128429/courtland-sutton",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "bio",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/bio/_/id/3128429/courtland-sutton",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "overview",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/_/id/3128429/courtland-sutton",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+            }
+        ],
+        "headshot": {
+            "href": "https://a.espncdn.com/i/headshots/nfl/players/full/3128429.png",
+            "alt": "Courtland Sutton"
+        },
+        "position": {
+            "id": "1",
+            "name": "Wide Receiver",
+            "displayName": "Wide Receiver",
+            "abbreviation": "WR",
+            "leaf": true,
+            "parent": {
+                "leaf": false
+            },
+            "slug": "wide-receiver"
+        },
+        "status": {
+            "id": "1",
+            "name": "Active",
+            "type": "active",
+            "abbreviation": "Active"
+        },
+        "age": 29,
+        "teamName": "Broncos",
+        "teamShortName": "DEN",
+        "teams": [
+            {
+                "name": "Broncos",
+                "abbreviation": "DEN"
+            }
+        ],
+        "slug": "courtland-sutton",
+        "teamId": "7",
+        "teamUId": "s:20~l:28~t:7",
+        "teamLogos": [
+            {
+                "href": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+                "width": 500,
+                "height": 500,
+                "rel": [
+                    "full",
+                    "default"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+                "width": 500,
+                "height": 500,
+                "rel": [
+                    "full",
+                    "dark"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/den.png",
+                "width": 500,
+                "height": 500,
+                "rel": [
+                    "full",
+                    "scoreboard"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/den.png",
+                "width": 500,
+                "height": 500,
+                "rel": [
+                    "full",
+                    "scoreboard",
+                    "dark"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/guid/51042145-e3c1-0694-ae0d-f720342ff8fc/logos/primary_logo_on_white_color.png",
+                "width": 4096,
+                "height": 4096,
+                "rel": [
+                    "full",
+                    "primary_logo_on_white_color"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/guid/51042145-e3c1-0694-ae0d-f720342ff8fc/logos/primary_logo_on_black_color.png",
+                "width": 4096,
+                "height": 4096,
+                "rel": [
+                    "full",
+                    "primary_logo_on_black_color"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/guid/51042145-e3c1-0694-ae0d-f720342ff8fc/logos/primary_logo_on_primary_color.png",
+                "width": 4096,
+                "height": 4096,
+                "rel": [
+                    "full",
+                    "primary_logo_on_primary_color"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/guid/51042145-e3c1-0694-ae0d-f720342ff8fc/logos/primary_logo_on_secondary_color.png",
+                "width": 4096,
+                "height": 4096,
+                "rel": [
+                    "full",
+                    "primary_logo_on_secondary_color"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/guid/51042145-e3c1-0694-ae0d-f720342ff8fc/logos/secondary_logo_on_white_color.png",
+                "width": 4096,
+                "height": 4096,
+                "rel": [
+                    "full",
+                    "secondary_logo_on_white_color"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/guid/51042145-e3c1-0694-ae0d-f720342ff8fc/logos/secondary_logo_on_black_color.png",
+                "width": 4096,
+                "height": 4096,
+                "rel": [
+                    "full",
+                    "secondary_logo_on_black_color"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/guid/51042145-e3c1-0694-ae0d-f720342ff8fc/logos/secondary_logo_on_primary_color.png",
+                "width": 4096,
+                "height": 4096,
+                "rel": [
+                    "full",
+                    "secondary_logo_on_primary_color"
+                ]
+            },
+            {
+                "href": "https://a.espncdn.com/guid/51042145-e3c1-0694-ae0d-f720342ff8fc/logos/secondary_logo_on_secondary_color.png",
+                "width": 4096,
+                "height": 4096,
+                "rel": [
+                    "full",
+                    "secondary_logo_on_secondary_color"
+                ]
+            }
+        ]
+    },
+    "categories": [
+        {
+            "name": "general",
+            "displayName": "Own General",
+            "splitId": "0",
+            "totals": [
+                "15",
+                "0",
+                "0",
+                "0"
+            ],
+            "values": [
+                15.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ranks": [
+                "1",
+                "-",
+                "-",
+                "-"
+            ]
+        },
+        {
+            "name": "passing",
+            "displayName": "Own Passing",
+            "splitId": "0",
+            "totals": [
+                "2",
+                "2",
+                "100.0",
+                "30",
+                "15.0",
+                "2.0",
+                "28",
+                "1",
+                "0",
+                "0",
+                "0",
+                "100.0",
+                "158.3",
+                "100.0"
+            ],
+            "values": [
+                2.0,
+                2.0,
+                100.0,
+                30.0,
+                15.0,
+                2.0,
+                28.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                99.99,
+                158.33299255371094,
+                99.99
+            ],
+            "ranks": [
+                "63",
+                "64",
+                "1",
+                "62",
+                "9",
+                "62",
+                "51",
+                "46",
+                "1",
+                "67",
+                "1",
+                "-",
+                "4",
+                "-"
+            ]
+        },
+        {
+            "name": "rushing",
+            "displayName": "Own Rushing",
+            "splitId": "0",
+            "totals": [
+                "0",
+                "0",
+                "0.0",
+                "0",
+                "0",
+                "0",
+                "0.0",
+                "0",
+                "0",
+                "0"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ranks": [
+                "86",
+                "78",
+                "78",
+                "81",
+                "34",
+                "38",
+                "78",
+                "45",
+                "25",
+                "70"
+            ]
+        },
+        {
+            "name": "receiving",
+            "displayName": "Own Receiving",
+            "splitId": "0",
+            "totals": [
+                "71",
+                "119",
+                "928",
+                "13.1",
+                "6",
+                "37",
+                "15",
+                "61.9",
+                "1",
+                "1",
+                "162",
+                "49"
+            ],
+            "values": [
+                71.0,
+                119.0,
+                928.0,
+                13.069999694824219,
+                6.0,
+                37.0,
+                15.0,
+                61.86666488647461,
+                1.0,
+                1.0,
+                162.0,
+                49.0
+            ],
+            "ranks": [
+                "7",
+                "6",
+                "6",
+                "6",
+                "3",
+                "14",
+                "3",
+                "6",
+                "1",
+                "1",
+                "14",
+                "4"
+            ]
+        },
+        {
+            "name": "defensive",
+            "displayName": "Own Defense",
+            "splitId": "0",
+            "totals": [
+                "2",
+                "0",
+                "2",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+            ],
+            "values": [
+                2.0,
+                0.0,
+                2.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ranks": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ]
+        },
+        {
+            "name": "defensiveinterceptions",
+            "displayName": "Own Defensive Interceptions",
+            "splitId": "0",
+            "totals": [
+                "0",
+                "0",
+                "0"
+            ],
+            "values": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "ranks": [
+                "-",
+                "-",
+                "-"
+            ]
+        },
+        {
+            "name": "scoring",
+            "displayName": "Own Scoring",
+            "splitId": "0",
+            "totals": [
+                "0",
+                "6",
+                "0",
+                "6",
+                "0",
+                "0",
+                "0",
+                "36",
+                "2.4"
+            ],
+            "values": [
+                0.0,
+                6.0,
+                0.0,
+                6.0,
+                0.0,
+                0.0,
+                0.0,
+                36.0,
+                2.4000000953674316
+            ],
+            "ranks": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ]
+        },
+        {
+            "name": "returning",
+            "displayName": "Own Returning",
+            "splitId": "0",
+            "totals": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "values": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "ranks": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ]
+        },
+        {
+            "name": "kicking",
+            "displayName": "Own Kicking",
+            "splitId": "0",
+            "totals": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "values": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "ranks": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ]
+        },
+        {
+            "name": "punting",
+            "displayName": "Own Punting",
+            "splitId": "0",
+            "totals": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ],
+            "values": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ],
+            "ranks": [
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-",
+                "-"
+            ]
+        }
+    ]
+}
