@@ -20,14 +20,12 @@ def NFL_Offensive():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-
     stats = re.search(r'("teamStats":\[.*?\]),"dictionary"', soup.prettify())
     stats = json.loads('{' + stats[1] + '}')
 
     rowTitles = ['displayName']
     for j in stats['teamStats'][0]['stats']:
         rowTitles.append(j['name'])
-
 
     rows = []
     for num, i in enumerate(stats['teamStats']):
@@ -49,14 +47,12 @@ def NFL_Defensive():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-
     stats = re.search(r'("teamStats":\[.*?\]),"dictionary"', soup.prettify())
     stats = json.loads('{' + stats[1] + '}')
 
     rowTitles = ['displayName']
     for j in stats['teamStats'][0]['stats']:
         rowTitles.append(j['name'])
-
 
     rows = []
     for num, i in enumerate(stats['teamStats']):
@@ -78,14 +74,12 @@ def NFL_SpecialTeams():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-
     stats = re.search(r'("teamStats":\[.*?\]),"dictionary"', soup.prettify())
     stats = json.loads('{' + stats[1] + '}')
 
     rowTitles = ['displayName']
     for j in stats['teamStats'][0]['stats']:
         rowTitles.append(j['name'])
-
 
     rows = []
     for num, i in enumerate(stats['teamStats']):
@@ -107,14 +101,12 @@ def NFL_Turnovers():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-
     stats = re.search(r'("teamStats":\[.*?\]),"dictionary"', soup.prettify())
     stats = json.loads('{' + stats[1] + '}')
 
     rowTitles = ['displayName']
     for j in stats['teamStats'][0]['stats']:
         rowTitles.append(j['name'])
-
 
     rows = []
     for num, i in enumerate(stats['teamStats']):
@@ -127,4 +119,88 @@ def NFL_Turnovers():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-print(NFL_Turnovers().head())
+def Player_Passing():
+    url = "https://www.espn.com/nfl/stats/player"
+
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print(response.code)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    stats = re.search(r'("playerStats":\[.*?\]),"teams"', soup.prettify())
+    stats = json.loads('{' + stats[1] + '}')
+
+    rowTitles = ['name', 'position']
+    for j in stats['playerStats'][0]['stats']:
+        rowTitles.append(j['name'])
+
+    rows = []
+    for num, i in enumerate(stats['playerStats']):
+        row = []
+        row.append(i['athlete']['name'])
+        row.append(i['athlete']['position'])
+        for j in i['stats']:
+            row.append(j['value'])
+        rows.append(row)
+
+    return pd.DataFrame(rows, columns=rowTitles)
+
+
+def Player_Rushing():
+    url = "https://www.espn.com/nfl/stats/player/_/stat/rushing"
+
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print(response.code)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    stats = re.search(r'("playerStats":\[.*?\]),"teams"', soup.prettify())
+    stats = json.loads('{' + stats[1] + '}')
+
+    rowTitles = ['name', 'position']
+    for j in stats['playerStats'][0]['stats']:
+        rowTitles.append(j['name'])
+
+    rows = []
+    for num, i in enumerate(stats['playerStats']):
+        row = []
+        row.append(i['athlete']['name'])
+        row.append(i['athlete']['position'])
+        for j in i['stats']:
+            row.append(j['value'])
+        rows.append(row)
+
+    return pd.DataFrame(rows, columns=rowTitles)
+
+
+def Player_Receiving():
+    url = "https://www.espn.com/nfl/stats/player/_/stat/receiving"
+
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print(response.code)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    stats = re.search(r'("playerStats":\[.*?\]),"teams"', soup.prettify())
+    stats = json.loads('{' + stats[1] + '}')
+
+    rowTitles = ['name', 'position']
+    for j in stats['playerStats'][0]['stats']:
+        rowTitles.append(j['name'])
+
+    rows = []
+    for num, i in enumerate(stats['playerStats']):
+        row = []
+        row.append(i['athlete']['name'])
+        row.append(i['athlete']['position'])
+        for j in i['stats']:
+            row.append(j['value'])
+        rows.append(row)
+
+    return pd.DataFrame(rows, columns=rowTitles)
+
+
+print(len(Player_Receiving()))
