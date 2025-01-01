@@ -52,7 +52,7 @@ def NFL_Get_Scores(season=2024):
 
     return pd.DataFrame(rows, columns=titles)
 
-
+# Only works if games that week have not happened yet. Use NFL_Get_Score for past pairings
 def NFL_Get_Games(week, season=2024):
     titles = ['awayTeam', 'homeTeam']
 
@@ -137,8 +137,8 @@ def NFL_All_Player_Stats():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-def NFL_Offensive():
-    url = "https://www.espn.com/nfl/stats/team"
+def NFL_Offensive(season=2024):
+    url = (f"https://www.espn.com/nfl/stats/team/_/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -164,8 +164,8 @@ def NFL_Offensive():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-def NFL_Defensive():
-    url = "https://www.espn.com/nfl/stats/team/_/view/defense"
+def NFL_Defensive(season=2024):
+    url = (f"https://www.espn.com/nfl/stats/team/_/view/defense/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -191,8 +191,8 @@ def NFL_Defensive():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-def NFL_SpecialTeams():
-    url = "https://www.espn.com/nfl/stats/team/_/view/special"
+def NFL_SpecialTeams(season=2024):
+    url = (f"https://www.espn.com/nfl/stats/team/_/view/special/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -219,7 +219,7 @@ def NFL_SpecialTeams():
 
 
 def NFL_Turnovers():
-    url = "https://www.espn.com/nfl/stats/team/_/view/turnovers"
+    url = (f"https://www.espn.com/nfl/stats/team/_/view/turnovers/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -247,6 +247,3 @@ def NFL_Turnovers():
 
 # with open("output.txt", 'w', encoding="utf-8") as f:
 #     f.write(str(soup.prettify()))
-
-
-print(NFL_Get_Games(18, 2024).head())
